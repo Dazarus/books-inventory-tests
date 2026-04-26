@@ -1,0 +1,20 @@
+{
+  "name": "books-inventory-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright test --reporter=html && playwright show-report",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:books": "playwright test tests/books.spec.js",
+    "test:validation": "playwright test tests/bookFormValidation.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}

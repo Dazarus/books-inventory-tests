@@ -1,0 +1,17 @@
+-Defects
+
+When you click the logout button you are not returned to the login page.
+If you delete a book and then refresh the book returns to the page
+If you add a book and refresh the book disappears
+When you click logout the welcome message disappears
+The character length counter for the title field on add a new book states it is 21 characters but the validation message shows up at 20 characters. 
+You can bypass the login screen by accessing https://frontendui-librarysystem.onrender.com/books directly.
+Genre field moves from a dropdown on add a book to a text input box when editing allowing any text to be entered and saved
+
+-Observations
+
+Price field for adding a new book should be currency but is not. It does format correctly on the book list page. 
+No back or cancel button on add a new book page
+No duplication validation on adding a new book when all fields match but price. 
+No pagination present for easy navigation for user. 
+Console errors need investigating
